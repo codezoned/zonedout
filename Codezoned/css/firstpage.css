@@ -1,0 +1,140 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 1.02em;
+	font-family: sans-serif , "lato"; 
+	font-weight: 375;
+	line-height: 2em;
+	color: #650;
+}
+
+.image1, .image2, .image3 {
+	position: relative;
+	opacity: 70%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*
+		the parallax effect due to background-attachment fixed may cause issues in mobile devices
+		so use
+		background-attachment: scroll; it'll make it normal
+	*/
+	background-attachment: fixed;
+
+}
+
+.image1{
+	background-image: url(../images/codezoned3.jpeg);
+	min-height: 100%;
+}
+
+.image2{
+	background-image: url(../images/codezoned4.jpeg);
+	min-height: 400px;
+}
+
+.image3{
+	background-image: url(../images/codezoned5.jpeg);
+	min-height: 400px;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 90px; /*60 on top and bottom 90 on left and right*/
+
+}
+
+.section-light{
+	background-color:  #D1CECE;
+	color: #393939;
+}
+
+
+.section-dark{
+	background-color: #5B5151;
+	color:  #BDB4B2;
+
+}
+
+.textpara1{
+	position: absolute;
+	text-align:center;
+	/*margin-left: 50%
+	margin-top: 50%;*/
+	top: 50%;
+	width: 100%;
+	color: lightgray;
+	font-size: 1.8em;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+
+}
+
+.textpara2{
+	position: absolute;
+	text-align: center;
+	/*margin-left: 50%;
+	margin-top: 50%;*/
+	top: 50%;
+	width: 100%;
+	color: black;
+	font-size: 1.8em;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+
+}
+
+.centeralign{
+
+	text-align: center;
+}
+
+.border{
+	text-align: center;
+}
+
+
+/* MENU BAR */
+#main-menu .nav-bar { list-style:none; margin-top: 40px; }
+#main-menu .nav-bar li { display:inline; padding:0 10px; }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #333;
+  size: 20px;
+	text-shadow: 5px 5px 5px #ccc;
+}
+
+.nav-bar .nav-button-home a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif") no-repeat 20px 20px transparent; }
+
+.nav-bar .nav-button-services a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif") no-repeat 20px 20px transparent; }
+
+.nav-bar .nav-button-products a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 20px 20px transparent; }
+
+/* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
+
+/*.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}*/
