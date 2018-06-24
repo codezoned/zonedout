@@ -6,7 +6,7 @@ body{
 	height: 100%;
 	width: 100%;
     background-repeat: no-repeat;
-	background: linear-gradient(#000000,#434343);
+	background: linear-gradient(#15BFA8,#033D76);
 	position: absolute;
     top:0;
     bottom: 0;
@@ -23,13 +23,15 @@ body{
 	height: 100%;
 	width: 100%;
 	background-color: transparent;
+	background: linear-gradient(#15BFA8,#000B4C);
+
 	margin: auto auto;
 }
 .quote{
 	margin: 0;
 	padding: 0;
 	color: white;
-	/*display: inline-block;*/
+	
 	text-align: center;
 	position: relative;
 	top: 50%;
@@ -37,7 +39,7 @@ body{
 	font-family: tohoma;
 	
 
-	/*transform: translateY(-50%);*/
+	transform: translateY(-50%);
 }
 .comingSoon{
 	color: red;
@@ -46,24 +48,8 @@ body{
 	right: 0;
 	position: absolute;
 	padding: 12em 12em;
-	/*text-decoration: */
-}
+	
 
 .quotation{
-	font-size: 2em;
+	font-size: 8%;
 }
-/*div { 
-    background: red;
-    overflow: hidden; 
-    text-align: center;
-}
-
-span a {
-    background: #222;
-    color: #fff;
-    display: inline-block;
-    float:left;  remove 
-    margin: 10px 10px 0 0;
-    padding: 5px 10px
-}
-*/

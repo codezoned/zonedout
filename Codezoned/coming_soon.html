@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+	<link rel="icon" type="image/png" href="images\CZmain.png">
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="css\coming_soon_styles.css">
 	
 <!-- Bootstrap links -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -10,11 +15,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- bootstrap javascript file-->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="css\styles.css">
+	
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-
+	
 </head>
 <body>
 	
@@ -24,8 +27,10 @@
 			</div>
 			<div class="quote">
 				<span class="quotation" width="100%">"There's a way to do it better - find it." <br> - Thomas Edison</span><br>
-				<input type="email" name="email" id="SubscriptionEmail" placeholder="Codezoned?">
-				<button class="btn btn-success btn-medium">Subscribe!</button>
+				<form class="subscription_form" name="subscription_form" id="subscription_form">
+					<input type="email" name="email" id="SubscriptionEmail" placeholder="Codezoned?">
+					<button class="btn btn-success btn-medium">Subscribe!</button>
+				</form>
 			</div>
 			<div style="position: absolute; bottom: 0; right: 0; padding: 20px 20px;">
 				<img src="images\coming-soon.png" alt="comingsoon" width="100" height="77">
