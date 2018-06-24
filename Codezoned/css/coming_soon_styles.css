@@ -5,8 +5,8 @@ body{
 	
 	height: 100%;
 	width: 100%;
-    background-repeat: no-repeat;
-	background: linear-gradient(#15BFA8,#033D76);
+    /*background-repeat: no-repeat;*/
+	/*background: linear-gradient(#15BFA8,#000B4C);*/
 	position: absolute;
     top:0;
     bottom: 0;
@@ -22,8 +22,9 @@ body{
 .gradient{
 	height: 100%;
 	width: 100%;
-	background-color: transparent;
-	background: linear-gradient(#15BFA8,#000B4C);
+	/*background-color: transparent;*/
+	 background-repeat: no-repeat;
+	background: linear-gradient(#15BFA8,#033D76);
 
 	margin: auto auto;
 }
@@ -50,6 +51,11 @@ body{
 	padding: 12em 12em;
 	
 
+}
 .quotation{
-	font-size: 8%;
+	font-size: 1.8em;
+}
+
+.subscription_form{
+	font-stretch: all;
 }
