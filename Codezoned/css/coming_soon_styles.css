@@ -24,7 +24,7 @@ body{
 	width: 100%;
 	/*background-color: transparent;*/
 	 background-repeat: no-repeat;
-	background: linear-gradient(#15BFA8,#033D76);
+	background: linear-gradient(black,lightgray);
 
 	margin: auto auto;
 }
@@ -39,8 +39,6 @@ body{
 	transform: translateY(-50%);
 	font-family: tohoma;
 	
-
-	transform: translateY(-50%);
 }
 .comingSoon{
 	color: red;
@@ -48,14 +46,37 @@ body{
 	bottom: 0;
 	right: 0;
 	position: absolute;
-	padding: 12em 12em;
+	padding: 12vw 12vw;
 	
 
 }
 .quotation{
-	font-size: 1.8em;
+	font-size: 2.2vw;
 }
 
 .subscription_form{
 	font-stretch: all;
 }
+
+.input-field-div{
+	width: 50%;
+	margin: auto auto;
+
+}
+.logo{
+ position: absolute; 
+ top: 0; 
+ left: 0;
+ max-height: 177px;
+ max-width: 200px;
+}
+.coming-soon-image{
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	padding: 20px 20px;
+	max-height: 130px;
+	max-width: 170px;
+}
+
+
