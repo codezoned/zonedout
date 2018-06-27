@@ -24,7 +24,7 @@ body{
 	width: 100%;
 	/*background-color: transparent;*/
 	 background-repeat: no-repeat;
-	background: linear-gradient(black,lightgray);
+	background: linear-gradient(#000000,#43435454);
 
 	margin: auto auto;
 }
@@ -78,10 +78,9 @@ body{
 	bottom: 0; 
 	right: 0; 
 	padding: 20px 20px;
-	max-height: 130px;
-	max-width: 170px;
-	color: red;
-	font-style: : 'Courier New';
+	font-size: 2.6vw;
+	color: white;
+	font-family: Georgia, serif;
 }
 
 
