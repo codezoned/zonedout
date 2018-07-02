@@ -83,4 +83,67 @@ body{
 	font-family: Georgia, serif;
 }
 
+@media (max-width: 700px){
+	.logo{
+		width: 140px;
+		height: 105px;
+	}
+	
+	.gradient{
+		height: 100%;
+		width: 100%;
+		/*background-color: transparent;*/
+		 background-repeat: no-repeat;
+		background: linear-gradient(#000000,#43435454);
+
+		margin: auto auto;
+	}
+	.quote{
+		margin: 0;
+		padding: 0;
+		color: white;
+		
+		text-align: center;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		font-family: tohoma;
+		
+	}
+	.img-wrapper{
+		width: 80%;
+	}
+	.comingSoon{
+		color: red;
+		font-family: tohoma;
+		bottom: 0;
+		right: 0;
+		position: relative;
+		padding: 12vw 12vw;
+		
+
+	}
+	.quotation{
+		font-size: 18px;
+	}
+
+	.subscription_form{
+		font-stretch: all;
+	}
+
+	.input-field-div{
+		width: 50%;
+		margin: auto auto;
+
+	}
+	.coming-soon-text{
+		position: absolute; 
+		bottom: 0; 
+		right: 0; 
+		padding: 20px 20px;
+		font-size: 25px;
+		color: white;
+		font-family: Georgia, serif;
+	}
+}
 
