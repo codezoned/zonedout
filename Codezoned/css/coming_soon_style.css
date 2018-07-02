@@ -113,16 +113,6 @@ body{
 	.img-wrapper{
 		width: 80%;
 	}
-	.comingSoon{
-		color: red;
-		font-family: tohoma;
-		bottom: 0;
-		right: 0;
-		position: relative;
-		padding: 12vw 12vw;
-		
-
-	}
 	.quotation{
 		font-size: 18px;
 	}
