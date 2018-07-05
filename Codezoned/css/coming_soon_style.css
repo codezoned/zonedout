@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html {
     height: 100%;
 }
@@ -17,7 +20,7 @@ body{
 }
 
 	
-
+@media( min-width: 700px){
 
 .gradient{
 	height: 100%;
@@ -62,8 +65,9 @@ body{
 }
 
 .input-field-div{
-	width: 50%;
+	width: 25%;
 	margin: auto auto;
+	resize: vertical;
 
 }
 .logo{
@@ -81,6 +85,7 @@ body{
 	font-size: 2.6vw;
 	color: white;
 	font-family: Georgia, serif;
+}
 }
 
 @media (max-width: 700px){
@@ -105,7 +110,7 @@ body{
 		
 		text-align: center;
 		position: relative;
-		top: 50%;
+		top: 40%;
 		transform: translateY(-50%);
 		font-family: tohoma;
 		
@@ -131,7 +136,7 @@ body{
 		bottom: 0; 
 		right: 0; 
 		padding: 20px 20px;
-		font-size: 25px;
+		font-size: 20px;
 		color: white;
 		font-family: Georgia, serif;
 	}
