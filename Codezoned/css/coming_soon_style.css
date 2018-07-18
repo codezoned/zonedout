@@ -15,6 +15,7 @@ body{
     right: 0;
 	margin: 15px;
 	text-align: center;
+	background-color: black;
 }
 
 input::-webkit-input-placeholder {
@@ -33,13 +34,23 @@ input:-ms-input-placeholder {
     text-transform: none;
     color: #ca3d3e;
 }
-@media(min-width: 500px){
+img{
+	max-width: 100%;
+}
+@media(min-width: 800px){
 	.spread-body{
 		background-repeat: no-repeat;
-		background: linear-gradient(#222222,#808080);
+		/*background: linear-gradient(#222222,#808080);*/
+		background-image: url(../images/background.jpg);
+		background-size: auto;
 		height: 100%;
 		width: 100%;
 		margin: auto auto;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+		background-position: center;
+   		background-repeat: no-repeat;
+    	background-size: cover;
 	}
 
 	.logo{
@@ -49,11 +60,23 @@ input:-ms-input-placeholder {
 		 max-height: 170px;
 		 max-width: 200px;
 		}
+	.logo-class{
+		background-color: black;
+	}
+	.tagline{
+		 position: absolute; 
+		 top: 0; 
+		 right: 0;
+		 margin: 1.5%; 
+		 size: 12px;
+		 
+		}
+	
 
 	.quote{
 		margin: 0;
 		padding: 0;
-		color: white;
+		color: black;
 		text-align: center;
 		position: relative;
 		top: 50%;
@@ -107,7 +130,7 @@ input:-ms-input-placeholder {
 		overflow: hidden;
 		}
 
-	.sub-btn:hover, .mui-btn:focus, .mui-btn:active {
+	.sub-btn:hover, .sub-btn:focus, .sub-btn:active {
 	    color: #ca3d3e;
 		background-color: white;
 	}
@@ -132,18 +155,27 @@ input:-ms-input-placeholder {
 	}
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
 
 	.spread-body{
+
+
 		background-repeat: no-repeat;
-		background: linear-gradient(#222222,#808080);
+		/*background: linear-gradient(#222222,#808080);*/
+		background-image: url(../images/background.jpg);
+		background-size: auto;
 		height: 100%;
 		width: 100%;
 		margin: auto auto;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+		background-position: center;
+   		background-repeat: no-repeat;
+    	background-size: cover;
 	}
 
 	.logo{
-		 position: absolute; 
+		 position: static; 
 		 top: 0; 
 		 left: 0;
 		 max-height: 100px;
@@ -151,15 +183,25 @@ input:-ms-input-placeholder {
 		 margin-bottom: 20px;
 		}
 
+	.tagline{
+		 position: static; 
+		 top: 0; 
+		 right: 0;
+		 size: 12px;
+		 color: white;
+	}
+
 	.quote{
 		margin: 0;
 		padding: 0;
-		color: 	white;
+		color: 	black;
 		text-align: center;
 		position: relative;
-		top: 50%;
+		top: 30%;
 		transform: translateY(-50%);
 		font-family: tahoma;
+		z-index: 100;
+		float: bottom;
 		
 	}
 
@@ -173,6 +215,7 @@ input:-ms-input-placeholder {
 	    resize: horizontal;
 	    margin: auto auto;
 	    background-color: #909090;
+	    float: bottom;
 	}
 	.sub-btn {
 		font-weight: 500;
@@ -206,9 +249,10 @@ input:-ms-input-placeholder {
 		letter-spacing: 0.03em;
 		position: relative;
 		overflow: hidden;
+		float: bottom;
 		}
 
-	.sub-btn:hover, .mui-btn:focus, .mui-btn:active {
+	.sub-btn:hover, .sub-btn:focus, .sub-btn:active {
 	    color: #ca3d3e;
 		background-color: white;
 	}
@@ -221,7 +265,7 @@ input:-ms-input-placeholder {
 	}
 
 	.coming-soon-text{
-		position: absolute; 
+		position: fixed; 
 		bottom: 0; 
 		right: 0; 
 		padding: 20px 20px;
@@ -230,6 +274,11 @@ input:-ms-input-placeholder {
 		font-family: Georgia, serif;
 		background-color: transparent;
 		color: #222222;
+		/*float: bottom;*/
+	}
+
+	.coming-soon{
+		float: bottom;
 	}
 
 
