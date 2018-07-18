@@ -40,8 +40,8 @@ img{
 @media(min-width: 800px){
 	.spread-body{
 		background-repeat: no-repeat;
-		/*background: linear-gradient(#222222,#808080);*/
-		background-image: url(../images/background.jpg);
+		background: linear-gradient(#2C3E50,#904e95);
+		/*background-image: url(../images/background.jpg);*/
 		background-size: auto;
 		height: 100%;
 		width: 100%;
@@ -137,11 +137,48 @@ img{
 	}
 
 	.link{
-		color:  #ca3d3e;
+		/*color:  #ca3d3e;
+		background-color: transparent;
+		border: solid 2px;
+		border-radius: 12px;
+		padding: 10px;*/
+
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		text-transform: uppercase;
+		color:white;
+		background-color: #ca3d3e;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		display: inline-block;
+		height: 36px;
+		padding: 0 26px;
+		margin: 6px 0;
+		border: none;
+		border-radius: 8px;
+		cursor: pointer;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		background-image: none;
+		text-align: center;
+		line-height: 36px;
+		vertical-align: middle;
+		white-space: nowrap;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		font-size: 14px;
+		font-family: inherit;
+		letter-spacing: 0.03em;
+		position: relative;
+		overflow: hidden;
 	}
 
 	.link:hover, .link:focus, .link:active{
 		color: #800000;
+		background-color: white;
 	}
 
 	.coming-soon-text{
@@ -272,7 +309,7 @@ img{
 		padding: 20px 20px;
 		font-size: 15px;
 		
-		font-family: Georgia, serif;
+		font-family: Georgia, Courier, serif;
 		background-color: transparent;
 		color: #222222;
 		/*float: bottom;*/
