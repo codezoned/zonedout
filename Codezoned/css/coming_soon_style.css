@@ -20,19 +20,19 @@ body{
 
 input::-webkit-input-placeholder {
     text-transform: none;
-    color: #ca3d3e;
+    color: white;
 }
 input::-moz-placeholder {
     text-transform: none;
-    color: #ca3d3e;
+    color: white;
 }
 input:-moz-placeholder {   /* Older versions of Firefox */
     text-transform: none;
-    color: #ca3d3e;
+    color: white;
 }
 input:-ms-input-placeholder {
     text-transform: none;
-    color: #ca3d3e;
+    color: white;
 }
 img{
 	max-width: 100%;
@@ -40,8 +40,8 @@ img{
 @media(min-width: 800px){
 	.spread-body{
 		background-repeat: no-repeat;
-		background: linear-gradient(#2C3E50,#904e95);
-		/*background-image: url(../images/background.jpg);*/
+		/*background: linear-gradient(#2C3E50,#904e95);*/
+		background-image: url(../images/astronomy.jpg);
 		background-size: auto;
 		height: 100%;
 		width: 100%;
@@ -64,6 +64,7 @@ img{
 	.logo-class{
 		background-color: black;
 	}
+
 	.tagline{
 		 position: absolute; 
 		 top: 0; 
@@ -71,14 +72,14 @@ img{
 		 margin: 1.5%; 
 		 size: 12px;
 		 
-		}
+	}
 	
-
 	.quote{
-		margin: 0;
+		margin: 5%;
 		padding: 0;
-		color: black;
-		text-align: center;
+		color: white;
+		opacity: 0.75;
+		text-align: left;
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);
@@ -92,26 +93,32 @@ img{
 
 	.email-class{
 		max-width: 500px;
-	    padding: 12px;
+		min-width: 250px;
+	    padding: 4.8px;
+	    color: white;
 	    resize: horizontal;
 	    margin: auto auto;
-	    background-color: white;
+	    background-color: transparent;
+	    border: solid white 0.8px;
+		border-radius: 12px;
 	}
+
 	.sub-btn {
+		margin-left: 20px;
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 18px;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		color:white;
-		background-color: #ca3d3e;
+		background-color: transparent;
+		border: solid white 0.8px;
+		border-radius: 12px;
 		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 		display: inline-block;
 		height: 36px;
 		padding: 0 26px;
 		margin: 6px 0;
-		border: none;
-		border-radius: 8px;
 		cursor: pointer;
 		-ms-touch-action: manipulation;
 		touch-action: manipulation;
@@ -129,34 +136,36 @@ img{
 		letter-spacing: 0.03em;
 		position: relative;
 		overflow: hidden;
-		}
+	}
 
 	.sub-btn:hover, .sub-btn:focus, .sub-btn:active {
-	    color: #ca3d3e;
-		background-color: white;
+	    color:white;
+		border: solid white 1.2px;
+		
+	}
+	.link-div{
+		width: 400px;
+		background-color: transparent;
+		height: 50px;
+		text-align: center;
+
 	}
 
 	.link{
-		/*color:  #ca3d3e;
-		background-color: transparent;
-		border: solid 2px;
-		border-radius: 12px;
-		padding: 10px;*/
+
 
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 18px;
-		text-transform: uppercase;
 		color:white;
-		background-color: #ca3d3e;
+		border: solid white 0.8px;
+		border-radius: 12px;
 		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 		display: inline-block;
 		height: 36px;
 		padding: 0 26px;
 		margin: 6px 0;
-		border: none;
-		border-radius: 8px;
 		cursor: pointer;
 		-ms-touch-action: manipulation;
 		touch-action: manipulation;
@@ -177,8 +186,10 @@ img{
 	}
 
 	.link:hover, .link:focus, .link:active{
-		color: #800000;
-		background-color: white;
+		color: white;
+		border: solid white 1.2px;
+		text-decoration: none;
+		
 	}
 
 	.coming-soon-text{
@@ -199,8 +210,8 @@ img{
 
 
 		background-repeat: no-repeat;
-		/*background: linear-gradient(#222222,#808080);*/
-		background-image: url(../images/background.jpg);
+		/*background: linear-gradient(#2C3E50,#904e95);*/
+		background-image: url(../images/astronomy.jpg);
 		background-size: auto;
 		height: 100%;
 		width: 100%;
@@ -210,8 +221,7 @@ img{
 		background-position: center;
    		background-repeat: no-repeat;
     	background-size: cover;
-	}
-
+    }
 	.logo{
 		 position: static; 
 		 top: 0; 
@@ -230,10 +240,11 @@ img{
 	}
 
 	.quote{
-		margin: 0;
+		margin-left: 50px;
 		padding: 0;
-		color: 	black;
-		text-align: center;
+		color: white;
+		opacity: 0.75;
+		text-align: left;
 		position: relative;
 		top: 30%;
 		transform: translateY(-50%);
@@ -249,27 +260,30 @@ img{
 
 	.email-class{
 		max-width: 500px;
-	    padding: 12px;
+		min-width: 200px;
+	    padding: 4.8px;
+	    color: white;
 	    resize: horizontal;
 	    margin: auto auto;
-	    background-color: #909090;
-	    float: bottom;
+	    background-color: transparent;
+	    border: solid white 0.8px;
+		border-radius: 12px;
 	}
 	.sub-btn {
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 18px;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		color: white;
-		background-color: #ca3d3e;
+		border: solid white 0.8px;
+		border-radius: 12px;
+		background-color: transparent;
 		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 		display: inline-block;
 		height: 36px;
 		padding: 0 26px;
 		margin: 6px 0;
-		border: none;
-		border-radius: 8px;
 		cursor: pointer;
 		-ms-touch-action: manipulation;
 		touch-action: manipulation;
@@ -291,15 +305,49 @@ img{
 		}
 
 	.sub-btn:hover, .sub-btn:focus, .sub-btn:active {
-	    color: #ca3d3e;
-		background-color: white;
+	    color:white;
+		border: solid white 1.2px;
+		border-radius: 12px;
 	}
 
 	.link{
-		color: #800000;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		/*text-transform: uppercase;*/
+		color:white;
+		background-color: transparent;
+		border: solid white 0.8px;
+		border-radius: 12px;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		display: inline-block;
+		height: 36px;
+		padding: 0 26px;
+		margin: 6px 0;
+		cursor: pointer;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		background-image: none;
+		text-align: center;
+		line-height: 36px;
+		vertical-align: middle;
+		white-space: nowrap;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		font-size: 14px;
+		font-family: Arial;
+		letter-spacing: 0.03em;
+		position: relative;
+		overflow: hidden;
 	}
+
 	.link:hover, .link:focus, .link:active{
-		color: #800000;
+		color:white;
+		border: solid white 1.2px;
+		text-decoration: none;
 	}
 
 	.coming-soon-text{
