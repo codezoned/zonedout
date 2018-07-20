@@ -1,11 +1,11 @@
 @font-face {
 font-family: "pro-font";
-src: url("css/fonts/ProFontWindows.ttf");
+src: url("../css/fonts/ProFontWindows.ttf") format("truetype");
 
 }
 @font-face {
 font-family: "ocra";
-src: url("css/fonts/OCRAEXT.ttf");
+src: url("../css/fonts/OCRAEXT.TTF") format("truetype");
 
 }
 
@@ -54,13 +54,21 @@ img{
 
 
 .icons{
-	font-size:1.5em;
-
+	font-size:1.7em;
+	color:floralwhite;
 }
 
 @media(min-width: 800px){
 	backquote{
 		margin-left:25%;
+	}
+
+	.icons{
+		margin-left:13%;
+		margin-top:13%;
+	}
+	.fa{
+		margin-left:2% ;
 	}
 
 	.spread-body{
@@ -171,14 +179,15 @@ img{
 		
 	}
 
+
 	.coming-soon-text{
 		position: absolute; 
-		width: 20vw;
+		width: 30vw;
 		bottom: 0; 
-		right: 3%; 
+		right: 5%;
 		padding: 20px 20px;
-		font-size: 1vw;
-		font-family: ocra;
+		font-size: 1em;
+		font-family: 'ocra';
 		text-align: justify-all;
 		background-color: transparent;
 		color: white;
@@ -191,7 +200,12 @@ img{
 }
 
 @media(max-width: 800px){
-
+	backquote{
+		margin-left:15%;
+	}
+	.code{
+		margin-left: 10%;
+	}
 	.spread-body{
 
 
@@ -211,7 +225,7 @@ img{
 	.logo{
 		 position: static; 
 		 top: 0; 
-		 left: 0;
+		 margin-left: 65%;
 		 max-height: 100px;
 		 max-width: 130px;
 		 margin-bottom: 20px;
@@ -227,12 +241,13 @@ img{
 
 	.quote{
 		margin: 5%;
+		margin-top:10%;
 		padding: 0;
 		color: white;
 		opacity: 0.75;
 		text-align: left;
 		position: relative;
-		top: 35%;
+		top: 15%;
 		transform: translateY(-50%);
 		z-index: 100;
 		text-align: justify;
@@ -250,6 +265,7 @@ img{
 
 	.quotation{
 		font-size: 1.05em;
+		font-family: "pro-font";
 	}
 
 	.email-class{
@@ -280,6 +296,7 @@ img{
 		height: 36px;
 		padding: 0 26px;
 		margin: 6px 0;
+		margin-left: 25%;
 		cursor: pointer;
 		-ms-touch-action: manipulation;
 		touch-action: manipulation;
@@ -293,7 +310,7 @@ img{
 		-ms-user-select: none;
 		user-select: none;
 		font-size: 14px;
-		font-family: Arial;
+		font-family: 'pro-font';
 		letter-spacing: 0.03em;
 		position: relative;
 		overflow: hidden;
@@ -311,9 +328,8 @@ img{
 		bottom: 0; 
 		right: 0; 
 		padding: 20px 20px;
-		font-size: 15px;
-		
-		font-family: Georgia, Courier, serif;
+		font-size: .9em;
+		font-family: "ocra";
 		background-color: transparent;
 		color: white;
 		/*float: bottom;*/
@@ -321,6 +337,13 @@ img{
 
 	.coming-soon{
 		float: bottom;
+	}
+	.icons{
+		margin-left:25%;
+		margin-top:5%;
+	}
+	.fa{
+		margin-left:10%;
 	}
 
 
