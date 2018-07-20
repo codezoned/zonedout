@@ -1,3 +1,14 @@
+@font-face {
+font-family: "pro-font";
+src: url("css/fonts/ProFontWindows.ttf");
+
+}
+@font-face {
+font-family: "ocra";
+src: url("css/fonts/OCRAEXT.ttf");
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -13,7 +24,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-	margin: 15px;
+	margin: 7px;
 	text-align: center;
 	background-color: black;
 }
@@ -59,7 +70,7 @@ img{
 		background-size: auto;
 		height: 100%;
 		width: 100%;
-		margin: auto auto;
+		margin: auto;
 		overflow: scroll;
 		-webkit-overflow-scrolling: touch;
 		background-position: center;
@@ -68,10 +79,11 @@ img{
 	}
 
 	.logo{
-		 position: absolute; 
+		 position: fixed; 
 		 top: 0; 
-		 left: 0;
-		 padding-bottom: 30px;
+		 right: 4%;
+		 padding:0;
+		 /*margin: 5%;*/
 		 max-height: 170px;
 		 max-width: 200px;
 		}
@@ -95,75 +107,23 @@ img{
 		opacity: 0.75;
 		text-align: left;
 		position: relative;
-		top: 30%;
+		top: 18vw;
 		transform: translateY(-50%);
-		font-family: tahoma;
-		
+		text-align: justify;
 	}
 
 	.quotation{
-		font-size: 2.2vw;
+		font-size: 1.5vw;
+		font-family: "pro-font";
 	}
 
-	.email-class{
-		max-width: 500px;
-		min-width: 250px;
-	    padding: 4.8px;
-	    color: white;
-	    resize: horizontal;
-	    margin: auto auto;
-	    background-color: transparent;
-	    border: solid white 0.8px;
-		/*border-radius: 12px;*/
-	}
-
-	.sub-btn {
-		margin-left: 20px;
-		font-weight: 500;
-		font-size: 14px;
-		line-height: 18px;
-		text-transform: uppercase;
-		color:white;
-		background-color: darkred;
-		border: solid maroon 1.2px;
-		/*border-radius: 12px;*/
-		-webkit-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-		display: inline-block;
-		height: 38px;
-		padding: 0 26px;
-		margin: 6px 0;
-		margin-bottom:10px;
-		cursor: pointer;
-		-ms-touch-action: manipulation;
-		touch-action: manipulation;
-		background-image: none;
-		text-align: center;
-		line-height: 38px;
-		vertical-align: middle;
-		white-space: nowrap;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-		font-size: 14px;
-		font-family: inherit;
-		letter-spacing: 0.03em;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.sub-btn:hover, .sub-btn:focus, .sub-btn:active {
-	    color:antiquewhite;
-		border: solid maroon 1.2px;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-		
-	}
 	.link-div{
 		width: 400px;
 		background-color: transparent;
 		height: 50px;
 		text-align: center;
+		top: 20vw;
+		left: 0;
 
 	}
 
@@ -195,10 +155,12 @@ img{
 		-ms-user-select: none;
 		user-select: none;
 		font-size: 14px;
-		font-family: inherit;
+		font-family: 'pro-font';
 		letter-spacing: 0.03em;
 		position: relative;
+		text-align: justify;
 		overflow: hidden;
+
 	}
 
 	.link:hover, .link:focus, .link:active{
@@ -211,13 +173,20 @@ img{
 
 	.coming-soon-text{
 		position: absolute; 
+		width: 20vw;
 		bottom: 0; 
-		right: 0; 
+		right: 3%; 
 		padding: 20px 20px;
-		font-size: 2.7vw;
-		font-family: Georgia, serif;
+		font-size: 1vw;
+		font-family: ocra;
+		text-align: justify-all;
 		background-color: transparent;
-		color: #222222;
+		color: white;
+
+
+	}
+	.panel{
+		background-color: red;
 	}
 }
 
@@ -257,17 +226,25 @@ img{
 	}
 
 	.quote{
-		margin-left: 50px;
+		margin: 5%;
 		padding: 0;
 		color: white;
 		opacity: 0.75;
 		text-align: left;
 		position: relative;
-		top: 30%;
+		top: 35%;
 		transform: translateY(-50%);
-		font-family: tahoma;
 		z-index: 100;
-		float: bottom;
+		text-align: justify;
+		
+		/*padding: 0;
+		color: white;
+		opacity: 0.75;
+		text-align: left;
+		position: relative;
+		top: 18vw;
+		transform: translateY(-50%);*/
+		
 		
 	}
 
@@ -286,47 +263,7 @@ img{
 	    border: solid white 0.8px;
 		/*border-radius: 12px;*/
 	}
-	.sub-btn {
-		font-weight: 500;
-		font-size: 14px;
-		line-height: 18px;
-		/*text-transform: uppercase;*/
-		color: white;
-		border: solid white 0.8px;
-		/*border-radius: 12px;*/
-		background-color: transparent;
-		-webkit-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-		display: inline-block;
-		height: 38px;
-		padding: 0 26px;
-		margin: 6px 0;
-		margin-bottom:10px;
-		cursor: pointer;
-		-ms-touch-action: manipulation;
-		touch-action: manipulation;
-		background-image: none;
-		text-align: center;
-		line-height: 36px;
-		vertical-align: middle;
-		white-space: nowrap;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-		font-size: 14px;
-		font-family: inherit;
-		letter-spacing: 0.03em;
-		position: relative;
-		overflow: hidden;
-		float: bottom;
-		}
 
-	.sub-btn:hover, .sub-btn:focus, .sub-btn:active {
-	    color:white;
-		border: solid white 1.2px;
-		border-radius: 12px;
-	}
 
 	.link{
 		font-weight: 500;
@@ -369,8 +306,8 @@ img{
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	}
 
-	.coming-soon-text{
-		position: fixed; 
+	.coming-soon-text{ 
+		position: absolute;
 		bottom: 0; 
 		right: 0; 
 		padding: 20px 20px;
@@ -378,7 +315,7 @@ img{
 		
 		font-family: Georgia, Courier, serif;
 		background-color: transparent;
-		color: #222222;
+		color: white;
 		/*float: bottom;*/
 	}
 
