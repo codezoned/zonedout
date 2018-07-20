@@ -1,11 +1,11 @@
 @font-face {
 font-family: "pro-font";
-src: url("../css/fonts/ProFontWindows.ttf") format("truetype");
+src: url("fonts/ProFontWindows.ttf") format("truetype");
 
 }
 @font-face {
 font-family: "ocra";
-src: url("../css/fonts/OCRAEXT.TTF") format("truetype");
+src: url("fonts/OCRAEXT.TTF") format("truetype");
 
 }
 
@@ -54,8 +54,18 @@ img{
 
 
 .icons{
-	font-size:1.7em;
-	color:floralwhite;
+	position: absolute;
+	font-size:1.5em;
+	bottom: 5%;
+	right: 40%;
+	text-align: center;
+	background-color: transparent;
+
+}
+
+.icons i{
+	margin: 0 15px;
+	color: white;
 }
 
 @media(min-width: 800px){
@@ -184,7 +194,7 @@ img{
 		position: absolute; 
 		width: 30vw;
 		bottom: 0; 
-		right: 5%;
+		right: 2%;
 		padding: 20px 20px;
 		font-size: 1em;
 		font-family: 'ocra';
