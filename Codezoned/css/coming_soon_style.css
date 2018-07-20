@@ -1,11 +1,11 @@
 @font-face {
 font-family: "pro-font";
-src: url("css/fonts/ProFontWindows.ttf");
+src: url("fonts/ProFontWindows.ttf");
 
 }
 @font-face {
 font-family: "ocra";
-src: url("css/fonts/OCRAEXT.ttf");
+src: url("fonts/OCRAEXT.ttf");
 
 }
 
@@ -125,7 +125,7 @@ img{
 	.quotation{
 		font-size: 1.5vw;
 		font-family: "pro-font";
-		word-spacing: 0.7vw;
+		word-spacing: 5px;
 	}
 
 	.link-div{
@@ -186,21 +186,17 @@ img{
 		position: absolute; 
 		width: 20vw;
 		bottom: 3%; 
-		right: 3%; 
+		right: 8%; 
 		padding: 20px 20px;
 		font-size: 1vw;
+		width: 340px;
 		font-family: ocra;
-		text-align: justify-all;
+		text-align: justify;
 		background-color: transparent;
 		color: white;
 		line-height: 20px;
-		word-spacing: 0.7vw;
-
-
 	}
-	.panel{
-		background-color: red;
-	}
+
 }
 
 @media(max-width: 800px){
