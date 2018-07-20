@@ -54,8 +54,18 @@ img{
 
 
 .icons{
+	position: absolute;
 	font-size:1.5em;
+	bottom: 5%;
+	right: 40%;
+	text-align: center;
+	background-color: transparent;
 
+}
+
+.icons i{
+	margin: 0 15px;
+	color: white;
 }
 
 @media(min-width: 800px){
@@ -115,6 +125,7 @@ img{
 	.quotation{
 		font-size: 1.5vw;
 		font-family: "pro-font";
+		word-spacing: 0.7vw;
 	}
 
 	.link-div{
@@ -174,7 +185,7 @@ img{
 	.coming-soon-text{
 		position: absolute; 
 		width: 20vw;
-		bottom: 0; 
+		bottom: 3%; 
 		right: 3%; 
 		padding: 20px 20px;
 		font-size: 1vw;
@@ -182,6 +193,8 @@ img{
 		text-align: justify-all;
 		background-color: transparent;
 		color: white;
+		line-height: 20px;
+		word-spacing: 0.7vw;
 
 
 	}
