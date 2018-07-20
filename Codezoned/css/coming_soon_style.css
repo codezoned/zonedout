@@ -17,7 +17,7 @@ html {
 }
 body{
 	
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	position: absolute;
     top:0;
@@ -52,12 +52,11 @@ img{
 	max-width: 100%;
 }
 
-
 .icons{
 	position: absolute;
 	font-size:1.5em;
 	bottom: 5%;
-	right: 40%;
+	right: 45%;
 	text-align: center;
 	background-color: transparent;
 
@@ -67,6 +66,8 @@ img{
 	margin: 0 15px;
 	color: white;
 }
+
+
 
 @media(min-width: 800px){
 	backquote{
@@ -83,7 +84,7 @@ img{
 
 	.spread-body{
 		background-repeat: no-repeat;
-		/*background: linear-gradient(#2C3E50,#904e95);*/
+	/*	background: linear-gradient(#2C3E50,#904e95);*/
 		background-image: url(../images/astronomy.jpg);
 		background-size: auto;
 		height: 100%;
@@ -92,7 +93,6 @@ img{
 		overflow: scroll;
 		-webkit-overflow-scrolling: touch;
 		background-position: center;
-   		background-repeat: no-repeat;
     	background-size: cover;
 	}
 
@@ -122,16 +122,16 @@ img{
 		margin: 5%;
 		padding: 0;
 		color: white;
-		opacity: 0.75;
+		/*opacity: 0.75;*/
 		text-align: left;
 		position: relative;
-		top: 18vw;
+		top: 20vw;
 		transform: translateY(-50%);
 		text-align: justify;
 	}
 
 	.quotation{
-		font-size: 1.5vw;
+		font-size: 1.4vw;
 		font-family: "pro-font";
 	}
 
@@ -139,7 +139,7 @@ img{
 		width: 400px;
 		background-color: transparent;
 		height: 50px;
-		text-align: center;
+		text-align: left;
 		top: 20vw;
 		left: 0;
 
@@ -164,9 +164,9 @@ img{
 		-ms-touch-action: manipulation;
 		touch-action: manipulation;
 		background-image: none;
-		text-align: center;
+		text-align: left;
 		line-height: 36px;
-		vertical-align: middle;
+		/*vertical-align: middle;*/
 		white-space: nowrap;
 		-webkit-user-select: none;
 		-moz-user-select: none;
@@ -193,7 +193,7 @@ img{
 	.coming-soon-text{
 		position: absolute; 
 		width: 30vw;
-		bottom: 0; 
+		bottom: 10px; 
 		right: 2%;
 		padding: 20px 20px;
 		font-size: 1em;
@@ -201,6 +201,7 @@ img{
 		text-align: justify-all;
 		background-color: transparent;
 		color: white;
+		opacity: 0.75;
 
 
 	}
