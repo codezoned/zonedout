@@ -1,11 +1,11 @@
 @font-face {
 font-family: "pro-font";
-src: url("css/fonts/ProFontWindows.ttf");
+src: url("fonts/ProFontWindows.ttf");
 
 }
 @font-face {
 font-family: "ocra";
-src: url("css/fonts/OCRAEXT.ttf");
+src: url("fonts/OCRAEXT.ttf");
 
 }
 
@@ -54,8 +54,18 @@ img{
 
 
 .icons{
+	position: absolute;
 	font-size:1.5em;
+	bottom: 5%;
+	right: 40%;
+	text-align: center;
+	background-color: transparent;
 
+}
+
+.icons i{
+	margin: 0 15px;
+	color: white;
 }
 
 @media(min-width: 800px){
@@ -115,6 +125,7 @@ img{
 	.quotation{
 		font-size: 1.5vw;
 		font-family: "pro-font";
+		word-spacing: 5px;
 	}
 
 	.link-div{
@@ -174,20 +185,18 @@ img{
 	.coming-soon-text{
 		position: absolute; 
 		width: 20vw;
-		bottom: 0; 
-		right: 3%; 
+		bottom: 3%; 
+		right: 8%; 
 		padding: 20px 20px;
 		font-size: 1vw;
+		width: 340px;
 		font-family: ocra;
-		text-align: justify-all;
+		text-align: justify;
 		background-color: transparent;
 		color: white;
-
-
+		line-height: 20px;
 	}
-	.panel{
-		background-color: red;
-	}
+
 }
 
 @media(max-width: 800px){
