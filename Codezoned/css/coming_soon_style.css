@@ -53,6 +53,14 @@ img{
 	max-width: 100%;
 }
 
+#gridContainer { padding: 20px; }
+	.grid-row > div { 
+		
+		padding: 10px;
+		
+		margin: 5px 0; 
+	}
+
 .icons{
 	position: absolute;
 	font-size:1.5em;
@@ -238,9 +246,9 @@ img{
 		 position: static; 
 		 top: 0; 
 		 margin-left: 65%;
-		 max-height: 100px;
-		 max-width: 130px;
-		 margin-bottom: 20px;
+		 max-height: 90px;
+		 max-width: 120px;
+		 margin-bottom: 15px;
 		}
 
 	.tagline{
@@ -253,7 +261,7 @@ img{
 
 	.quote{
 		margin: 5%;
-		margin-top:10%;
+		/*margin-top:10%;*/
 		padding: 0;
 		color: white;
 		opacity: 0.75;
@@ -282,7 +290,7 @@ img{
 
 	.email-class{
 		max-width: 500px;
-		min-width: 200px;
+		min-width: 150px;
 	    padding: 4.8px;
 	    color: white;
 	    resize: horizontal;
@@ -295,8 +303,8 @@ img{
 
 	.link{
 		font-weight: 500;
-		font-size: 14px;
-		line-height: 18px;
+		font-size: 12px;
+		line-height: 16px;
 		/*text-transform: uppercase;*/
 		color:white;
 		background-color: transparent;
@@ -337,7 +345,7 @@ img{
 
 	.coming-soon-text{ 
 		position: absolute;
-		bottom: 0; 
+		bottom: 12px; 
 		right: 0; 
 		padding: 20px 20px;
 		font-size: .9em;
@@ -351,8 +359,10 @@ img{
 		float: bottom;
 	}
 	.icons{
-		margin-left:25%;
+		padding: 0 0.3vw;
 		margin-top:5%;
+		background-color: transparent;
+		
 	}
 	.fa{
 		margin-left:10%;
