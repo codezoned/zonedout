@@ -111,8 +111,8 @@ img{
 		 right: 4%;
 		 padding:0;
 		 /*margin: 5%;*/
-		 max-height: 170px;
-		 max-width: 200px;
+		 max-height: 190px;
+		 max-width: 220px;
 		}
 	.logo-class{
 		background-color: black;
@@ -246,8 +246,8 @@ img{
 		 position: static; 
 		 top: 0; 
 		 margin-left: 65%;
-		 max-height: 90px;
-		 max-width: 120px;
+		 max-height: 127.5px;
+		 max-width: 167.5px;
 		 margin-bottom: 15px;
 		}
 
@@ -266,7 +266,7 @@ img{
 		color: white;
 		text-align: left;
 		position: relative;
-		top: 15%;
+		top: 20%;
 		transform: translateY(-50%);
 		z-index: 100;
 		text-align: justify;
@@ -344,7 +344,7 @@ img{
 
 	.coming-soon-text{ 
 		position: absolute;
-		bottom: 20px; 
+		bottom: 1.45em; 
 		right: 0; 
 		padding: 20px 20px;
 		font-size: .9em;
