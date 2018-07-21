@@ -264,7 +264,6 @@ img{
 		/*margin-top:10%;*/
 		padding: 0;
 		color: white;
-		opacity: 0.75;
 		text-align: left;
 		position: relative;
 		top: 15%;
@@ -352,6 +351,7 @@ img{
 		font-family: "ocra";
 		background-color: transparent;
 		color: white;
+		opacity: 0.75;
 		/*float: bottom;*/
 	}
 
