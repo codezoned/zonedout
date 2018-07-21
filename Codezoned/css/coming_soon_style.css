@@ -265,7 +265,7 @@ img{
 		color: white;
 		text-align: left;
 		position: relative;
-		top: 15%;
+		top: 20%;
 		transform: translateY(-50%);
 		z-index: 100;
 		text-align: justify;
@@ -343,7 +343,7 @@ img{
 
 	.coming-soon-text{ 
 		position: absolute;
-		bottom: 20px; 
+		bottom: 1.45em; 
 		right: 0; 
 		padding: 20px 20px;
 		font-size: .9em;
