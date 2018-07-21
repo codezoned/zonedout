@@ -12,8 +12,9 @@ src: url("fonts/OCRAEXT.TTF") format("truetype");
 * {
     box-sizing: border-box;
 }
+
 html {
-    height: 100%;
+	height: 100%;
 }
 body{
 	
@@ -90,7 +91,7 @@ img{
 		height: 100%;
 		width: 100%;
 		margin: auto;
-		overflow: scroll;
+		overflow: hidden;
 		-webkit-overflow-scrolling: touch;
 		background-position: center;
     	background-size: cover;
@@ -227,7 +228,7 @@ img{
 		height: 100%;
 		width: 100%;
 		margin: auto auto;
-		overflow: scroll;
+		overflow: hidden;
 		-webkit-overflow-scrolling: touch;
 		background-position: center;
    		background-repeat: no-repeat;
