@@ -92,7 +92,6 @@ img{
 
 	.spread-body{
 		background-repeat: no-repeat;
-	/*	background: linear-gradient(#2C3E50,#904e95);*/
 		background-image: url(../images/astronomy.jpg);
 		background-size: auto;
 		height: 100%;
@@ -109,7 +108,6 @@ img{
 		 top: 0; 
 		 right: 4%;
 		 padding:0;
-		 /*margin: 5%;*/
 		 max-height: 190px;
 		 max-width: 220px;
 		}
@@ -130,7 +128,6 @@ img{
 		margin: 5%;
 		padding: 0;
 		color: white;
-		/*opacity: 0.75;*/
 		text-align: left;
 		position: relative;
 		top: 20vw;
@@ -161,7 +158,6 @@ img{
 		line-height: 18px;
 		color:white;
 		border: solid white 0.8px;
-		/*border-radius: 12px;*/
 		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 		display: inline-block;
@@ -174,7 +170,6 @@ img{
 		background-image: none;
 		text-align: left;
 		line-height: 36px;
-		/*vertical-align: middle;*/
 		white-space: nowrap;
 		-webkit-user-select: none;
 		-moz-user-select: none;
@@ -229,7 +224,6 @@ img{
 
 
 		background-repeat: no-repeat;
-		/*background: linear-gradient(#2C3E50,#904e95);*/
 		background-image: url(../images/astronomy.jpg);
 		background-size: auto;
 		height: 100%;
@@ -250,17 +244,9 @@ img{
 		 margin-bottom: 15px;
 		}
 
-	.tagline{
-		 position: static; 
-		 top: 0; 
-		 right: 0;
-		 size: 12px;
-		 color: white;
-	}
 
 	.quote{
 		margin: 5%;
-		/*margin-top:10%;*/
 		padding: 0;
 		color: white;
 		text-align: left;
@@ -269,15 +255,6 @@ img{
 		transform: translateY(-50%);
 		z-index: 100;
 		text-align: justify;
-		
-		/*padding: 0;
-		color: white;
-		opacity: 0.75;
-		text-align: left;
-		position: relative;
-		top: 18vw;
-		transform: translateY(-50%);*/
-		
 		
 	}
 
@@ -295,7 +272,6 @@ img{
 	    margin: auto auto;
 	    background-color: transparent;
 	    border: solid white 0.8px;
-		/*border-radius: 12px;*/
 	}
 
 
@@ -303,11 +279,9 @@ img{
 		font-weight: 500;
 		font-size: 12px;
 		line-height: 16px;
-		/*text-transform: uppercase;*/
 		color:white;
 		background-color: transparent;
 		border: solid white 0.8px;
-		/*border-radius: 12px;*/
 		-webkit-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
 		display: inline-block;
@@ -351,7 +325,6 @@ img{
 		background-color: transparent;
 		color: white;
 		opacity: 0.75;
-		/*float: bottom;*/
 	}
 
 	.coming-soon{
