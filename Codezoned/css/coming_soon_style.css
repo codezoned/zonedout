@@ -232,10 +232,15 @@ img{
    		background-repeat: no-repeat;
     	background-size: cover;
     }
+
+    .logo-class{
+    	text-align: center;
+    }
+
+
 	.logo{
 		 position: relative; 
-		 top: 0; 
-		 margin-left: 42.5%;
+		 margin: 0 auto;
 		 max-height: 127.5px;
 		 max-width: 157.5px;
 		 margin-bottom: 15%;
@@ -247,7 +252,7 @@ img{
 		margin: 5%;
 		padding: 0;
 		color: white;
-		text-align: left;
+		text-align: center;
 		position: relative;
 		top: 20%;
 		transform: translateY(-50%);
@@ -275,6 +280,7 @@ img{
 
 
 	.link{
+
 		font-weight: 500;
 		font-size: 12px;
 		line-height: 16px;
@@ -286,8 +292,10 @@ img{
 		display: inline-block;
 		height: 36px;
 		padding: 0 26px;
-		margin: 6px 0;
-		margin-left: 25%;
+		/*margin: 6px 0;*/
+		left: 8%;
+		/*margin: 0 auto;*/
+		text-align: center;
 		cursor: pointer;
 		-ms-touch-action: manipulation;
 		touch-action: manipulation;
@@ -316,7 +324,7 @@ img{
 
 	.coming-soon-text{ 
 		position: absolute;
-		bottom: 1.5em; 
+		bottom: 1.8em; 
 		right: 0; 
 		padding: 20px 20px;
 		font-size: .9em;
@@ -331,7 +339,7 @@ img{
 	}
 	.icons{
 		padding: 0 0.3vw;
-		margin-top:5%;
+		margin-top:8%;
 		background-color: transparent;
 		right: 30%;
 		
