@@ -77,7 +77,7 @@ img{
 
 
 
-@media(min-width: 800px){
+@media(min-width: 768px){
 	backquote{
 		margin-left:25%;
 	}
@@ -213,13 +213,10 @@ img{
 	}
 }
 
-@media(max-width: 800px){
-	backquote{
+@media(max-width: 768px){
+	/*backquote{
 		margin-left:15%;
-	}
-	.code{
-		margin-left: 10%;
-	}
+	}*/
 	.spread-body{
 
 
@@ -236,12 +233,13 @@ img{
     	background-size: cover;
     }
 	.logo{
-		 position: static; 
+		 position: relative; 
 		 top: 0; 
-		 margin-left: 65%;
+		 margin-left: 42.5%;
 		 max-height: 127.5px;
-		 max-width: 167.5px;
-		 margin-bottom: 15px;
+		 max-width: 157.5px;
+		 margin-bottom: 15%;
+		 
 		}
 
 
@@ -255,6 +253,7 @@ img{
 		transform: translateY(-50%);
 		z-index: 100;
 		text-align: justify;
+		word-spacing: 4px;
 		
 	}
 
@@ -317,7 +316,7 @@ img{
 
 	.coming-soon-text{ 
 		position: absolute;
-		bottom: 1.45em; 
+		bottom: 1.5em; 
 		right: 0; 
 		padding: 20px 20px;
 		font-size: .9em;
