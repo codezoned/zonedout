@@ -59,6 +59,8 @@ dl, dt, dd, ol, ul, li {
 :active,
 :focus { outline: none !important; }
 
+/*New Classes*/
+
 
 /*Typography*/
 
@@ -1064,7 +1066,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { color: #D3D3D3; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -1110,7 +1112,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 #primary-menu ul ul li > a {
 	font-size: 12px;
 	font-weight: 700;
-	color: #666;
+	color: #D3D3D3;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border: 0;
@@ -3231,7 +3233,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .breadcrumb a { color: #555; }
 
-.breadcrumb a:hover { color: #1ABC9C; }
+.breadcrumb a:hover { color: #952D14 ; background-color: #D3D3D3 }
 
 .breadcrumb i { width: auto !important; }
 
@@ -3446,7 +3448,7 @@ body:not(.device-touch) .grid-container {
 
 .entry-title h2 a { color: #333; }
 
-.entry-title h2 a:hover { color: #1ABC9C; }
+.entry-title h2 a:hover { color: #952D14; background-color: #D3D3D3 }
 
 .entry-meta {
 	margin: 10px -10px -15px 0;
@@ -3865,7 +3867,7 @@ body:not(.device-touch) .entry-link {
 .ipost .entry-title h4 a { color: #333; }
 
 .ipost .entry-title h3 a:hover,
-.ipost .entry-title h4 a:hover { color: #1ABC9C; }
+.ipost .entry-title h4 a:hover { color: #952D14; background-color: #D3D3D3 }
 
 .ipost .entry-meta { margin-right: -10px; }
 
@@ -4145,7 +4147,7 @@ body:not(.device-touch) .entry-link {
 	color: #333;
 }
 
-.comment-content .comment-author a:hover { color: #1ABC9C; }
+.comment-content .comment-author a:hover { color: #952D14; background-color: #D3D3D3}
 
 .comment-content .comment-author span { display: block; }
 
@@ -4158,7 +4160,7 @@ body:not(.device-touch) .entry-link {
 	color: #AAA;
 }
 
-.comment-content .comment-author span a:hover { color: #888; }
+.comment-content .comment-author span a:hover { color: #952D14; background-color: #D3D3D3 }
 
 .comment-reply-link,
 .review-comment-ratings {
@@ -4180,7 +4182,7 @@ body:not(.device-touch) .entry-link {
 	color: #333;
 }
 
-.comment-reply-link:hover { color: #888; }
+.comment-reply-link:hover { color: #952D14; background-color: #D3D3D3 }
 
 
 /*
@@ -4405,7 +4407,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image > a {
 .single-product .product-title h2 a { color: #333; }
 
 .product-title h3 a:hover,
-.single-product .product-title h2 a:hover { color: #1ABC9C; }
+.single-product .product-title h2 a:hover { color: #952D14; background-color: #D3D3D3 }
 
 .product-price {
 	font-size: 18px;
@@ -4450,8 +4452,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-overlay {
 	float: left;
 	width: 50%;
 	font-size: 13px;
-	color: #333;
-	background-color: #F5F5F5;
+	color: #952D14;
+	background-color: #D3D3D3
 	text-align: center;
 	border-right: 1px solid rgba(0,0,0,0.1);
 }
@@ -4472,8 +4474,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-overlay a {
 }
 
 .product-overlay a:hover {
-	background-color: #333;
-	color: #FFF;
+	color: #952D14; 
+	background-color: #D3D3D3
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
@@ -4922,7 +4924,7 @@ td.actions {
 
 .parallax .entry-overlay-meta h2 a { color: #FFF; }
 
-.parallax .entry-overlay-meta h2 a:hover { color: #DDD; }
+.parallax .entry-overlay-meta h2 a:hover { color: #952D14; background-color: #D3D3D3 }
 
 .parallax .countdown { top: 0; }
 
@@ -5134,8 +5136,8 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #444;
-	color: #FFF;
+	color: #952D14; 
+	background-color: #D3D3D3
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
@@ -5297,7 +5299,8 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-	background-color: #1ABC9C !important;
+	color: #952D14; 
+	background-color: #D3D3D3 !important;
 	opacity: 0.9;
 }
 
