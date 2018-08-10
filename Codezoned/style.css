@@ -859,9 +859,10 @@ html[xmlns] .slider-wrap {display: block;}
 	background: transparent;
 	border-bottom: none;
 	z-index: 199;
+
 }
 
-#header.semi-transparent { background-color: rgba(255,255,255,0.8); }
+#header.semi-transparent { background-color: rgba(255,255,255,0.6); }
 
 #header.transparent-header.floating-header { margin-top: 60px; }
 
@@ -2313,7 +2314,7 @@ body:not(.device-touch) #page-menu nav li a {
 	width: 260px;
 	height: 100%;
 	height: calc(100vh);
-	background-color: #FFF;
+	/*background-color: #FFF;*/
 	border: none;
 	border-right: 1px solid #EEE;
 	overflow: hidden;
@@ -3231,7 +3232,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 #header.transparent-header + #page-title.page-title-parallax .breadcrumb { margin-top: 35px !important; }
 
-.breadcrumb a { color: #555; }
+.breadcrumb a { color: #952D14; }
 
 .breadcrumb a:hover { color: #952D14 ; background-color: #D3D3D3 }
 
@@ -3241,7 +3242,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 */
 
 #page-title.page-title-dark {
-	background-color: #333;
+	background-color: #952D14;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.15) !important;
 	border-bottom: none;
 }
