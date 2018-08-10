@@ -3238,20 +3238,20 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .breadcrumb i { width: auto !important; }
 
-/* Page Title - Dark
-*/
+/* Page Title - Dark*/
 
 #page-title.page-title-dark {
 	background-color: #952D14;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.15) !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.02) !important;
 	border-bottom: none;
+	border-style: none;
 }
 
-#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+#page-title.page-title-dark h1 { color: rgba(255,255,255,0.02) !important; }
 
-#page-title.page-title-dark span { color: rgba(255,255,255,0.7); }
+#page-title.page-title-dark span { color: rgba(255,255,255,0.02); }
 
-#page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.6); }
+#page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.4); }
 
 #page-title.page-title-dark .breadcrumb a { color: rgba(255,255,255,0.8); }
 
@@ -3267,8 +3267,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	right: auto !important;
 }
 
-/* Page Title - Center Aligned
-*/
+/* Page Title - Center Aligned*/
 
 #page-title.page-title-center { text-align: center; }
 
@@ -3287,17 +3286,14 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	justify-content: center;
 }
 
-/* Page Title - Background Pattern
-*/
-
+/* Page Title - Background Pattern*/
 #page-title.page-title-pattern {
 	background-image: url('images/pattern.png');
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
 
-/* Page Title - Parallax Background
-*/
+/* Page Title - Parallax Background*/
 
 #page-title.page-title-parallax {
 	padding: 100px 0;
@@ -3324,8 +3320,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 }
 
 
-/* Page Title - Mini
-*/
+/* Page Title - Mini */
 
 #page-title.page-title-mini { padding: 20px 0; }
 
@@ -3337,9 +3332,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 #page-title.page-title-mini span { display: none; }
 
-
-/* Page Title - No Background
-*/
+/* Page Title - No Background */
 
 #page-title.page-title-nobg {
 	background: transparent !important;
@@ -3347,8 +3340,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 }
 
 
-/* Page Title - Video
-*/
+/* Page Title - Video*/
 
 #page-title.page-title-video {
 	background: none;
@@ -3369,9 +3361,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #page-title.page-title-video .video-wrap video { width: 100%; }
 
 
-/*
-	Content
-*/
+/* Content */
 
 
 #content {
@@ -3400,13 +3390,7 @@ body:not(.device-touch) .grid-container {
 	transition: height .4s ease;
 }
 
-
-
-
-/*
-	Blog
-*/
-
+/* Blog */
 
 #posts { position: relative; }
 
