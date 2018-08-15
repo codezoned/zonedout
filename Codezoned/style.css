@@ -1011,9 +1011,9 @@ body.stretched #header.full-header .container {
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-	-webkit-transition: opacity .3s ease;
-	-o-transition: opacity .3s ease;
-	transition: opacity .3s ease;
+	-webkit-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	transition: opacity .5s ease;
 }
 
 #primary-menu ul {
@@ -1044,9 +1044,9 @@ body.stretched #header.full-header .container {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
-	-webkit-transition: margin .4s ease, padding .4s ease;
-	-o-transition: margin .4s ease, padding .4s ease;
-	transition: margin .4s ease, padding .4s ease;
+	-webkit-transition: margin .6s ease, padding .4s ease;
+	-o-transition: margin .6s ease, padding .4s ease;
+	transition: margin .6s ease, padding .4s ease;
 }
 
 #primary-menu ul li > a span { display: none; }
@@ -1119,9 +1119,9 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 	border: 0;
 	letter-spacing: 0;
 	font-family: 'Lato', sans-serif;
-	-webkit-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
 }
 
 #primary-menu ul ul li > a i { vertical-align: middle; }
@@ -1358,9 +1358,9 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 	height: 2px;
 	width: 0;
 	border-top: 2px solid #1ABC9C;
-	-webkit-transition: width .3s ease;
-	-o-transition: width .3s ease;
-	transition: width .3s ease;
+	-webkit-transition: width .4s ease;
+	-o-transition: width .4s ease;
+	transition: width .4s ease;
 }
 
 #primary-menu.style-6 > ul > li.current > a:after,
