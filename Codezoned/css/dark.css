@@ -1024,7 +1024,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #footer {
 	background-color: #333;
 	color: #CCC;
-	border-top-color: rgba(0,0,0,0.2);
+	border-top-color: rgba(0,0,0,0.4);
 }
 
 .dark #copyrights {
@@ -1056,18 +1056,18 @@ body #side-panel.dark .widget { border-top-color: rgba(255,255,255,0.1); }
 
 body.dark #side-panel #side-panel-trigger-close a,
 body #side-panel.dark #side-panel-trigger-close a {
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
 	color: #FFF;
 }
 
 .dark .widget h4 { color: #DDD; }
 
-.dark .widget p { opacity: 0.8; }
+.dark .widget p { opacity: 0.5; }
 
 .dark .tagcloud a {
 	color: #999;
 	border-color: transparent;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
 }
 
 .dark .tagcloud a:hover {
@@ -1574,9 +1574,9 @@ body #side-panel.dark #side-panel-trigger-close a {
 .dark .card-default > .card-footer + .collapse .card-body { border-bottom-color: rgba(255,255,255,0.15); }
 
 .dark .close {
-	opacity: 1;
+	opacity: 0.5;
 	color: rgba(0,0,0,0.15);
-	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 }
 
 .dark .close:hover,

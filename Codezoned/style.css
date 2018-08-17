@@ -1956,11 +1956,11 @@ body.top-search-open #top-account { opacity: 0; }
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-#header.semi-transparent.sticky-header #header-wrap { background-color: rgba(255,255,255,0.8) }
+#header.semi-transparent.sticky-header #header-wrap { background-color: rgba(255,255,255,0.5) }
 
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
-#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 60px; }
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 60px; opacity: 0.70;}
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
 	padding-top: 19px;
