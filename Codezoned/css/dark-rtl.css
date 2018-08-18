@@ -26,24 +26,28 @@
 #header.full-header.dark #header-wrap:not(.not-dark) #logo {
 	border-left-color: rgba(255,255,255,0.15);
 	border-right-color: transparent;
+	opacity: 0.5;
 }
 
 .dark #header.transparent-header.full-header:not(.sticky-header) #header-wrap:not(.not-dark) #logo,
 #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) #logo {
 	border-left-color: rgba(255,255,255,0.2);
 	border-right-color: transparent;
+	opacity: 0.5;
 }
 
 .dark #header.full-header #header-wrap:not(.not-dark) #primary-menu > ul,
 #header.full-header.dark #header-wrap:not(.not-dark) #primary-menu > ul {
 	border-left-color: rgba(255,255,255,0.15);
 	border-right-color: transparent;
+	opacity: 0.5;
 }
 
 .dark #header.transparent-header.full-header:not(.sticky-header) #header-wrap:not(.not-dark) #primary-menu > ul,
 #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) #primary-menu > ul {
 	border-left-color: rgba(255,255,255,0.2);
 	border-right-color: transparent;
+	opacity: 0.5;
 }
 
 .dark #primary-menu:not(.not-dark) ul ul > li.sub-menu > a,

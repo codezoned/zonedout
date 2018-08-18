@@ -1219,7 +1219,7 @@ var SEMICOLON = SEMICOLON || {};
 					onePageOffset = $onePageMenuEl.attr('data-offset'),
 					onePageEasing = $onePageMenuEl.attr('data-easing');
 
-				if( !onePageSpeed ) { onePageSpeed = 2000; }
+				if( !onePageSpeed ) { onePageSpeed = 1000; }
 				if( !onePageEasing ) { onePageEasing = 'easeOutQuad'; }
 
 				$onePageMenuEl.find('a[data-href]').click(function(){
@@ -3105,7 +3105,7 @@ var SEMICOLON = SEMICOLON || {};
 						trSeparator = $(this).attr('data-separator');
 
 					if( !trRotate ) { trRotate = "fade"; }
-					if( !trSpeed ) { trSpeed = 2000; }
+					if( !trSpeed ) { trSpeed = 1200; }
 					if( !trSeparator ) { trSeparator = ","; }
 
 					var tRotater = $(this).find('.t-rotate');
